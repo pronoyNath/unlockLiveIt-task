@@ -25,7 +25,7 @@ const IntroVideo = () => {
         },
     ]
     return (
-        <div className='bg-[#FFFAF2]  mb-32  w-full  text-[#270A05]'>
+        <div className='bg-[#FFFAF2] w-full  text-[#270A05]'>
             <div className='flex h-[230px] px-20'>
                 <div className=''>
                     <div className='relative'>
@@ -43,7 +43,7 @@ const IntroVideo = () => {
                 <div className='flex-1 flex justify-evenly items-center  w-full'>
                     {
                         videoList.map(play =>
-                            <div key={play.id} className={`${play?.id == '2' && "border-x text-center"} ${play?.id == "1" && 'text-left'} ${play?.id == "3" && 'text-right'} px-16 py-12`}>
+                            <div key={play.id} className={`${play?.id == '2' && "border-x text-center"} ${play?.id == "1" && 'text-left'} ${play?.id == "3" && 'text-right'} px-16 py-8`}>
                                 <h3 className='font-Abril font-light text-lg mb-7'>{play?.title}</h3>
                                 <div>
                                     <p className='font-Jost text-[#270A05]'>{play?.date}</p>
