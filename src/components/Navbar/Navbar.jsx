@@ -34,7 +34,7 @@ const Navbar = () => {
                             <li><a>Contact Us</a></li>
                         </ul>
                     </div>
-                    <ul className="menu menu-horizontal hidden lg:flex text-lg  gap-2 px-1">
+                    <ul className="menu menu-horizontal hidden lg:flex text-lg  px-1">
                         <li><a>Home</a></li>
                         <li>
                             <details>
