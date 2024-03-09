@@ -20,11 +20,11 @@ const NewRecipieCarousel = () => {
 
     return (
         <div className="bg-[#FFFAF2]">
-            <div className="w-full h-72 sm:h-96 md:h-[540px] lg:h-[540px] xl:h-[580px] flex flex-col xl:flex-row items-center justify-center gap-5 lg:gap-10 relative bg-cover before:absolute before:bg-black/50  transform duration-1000 ease-linear z-50 overflow-hidden max-w-7xl ml-auto "
+            <div className="w-full h-72 sm:h-96 md:h-[540px] lg:h-[540px] xl:h-[580px] flex flex-col xl:flex-row items-center justify-center gap-5 lg:gap-10 relative bg-cover before:absolute before:bg-black/50  transform duration-1000 ease-linear z-50 overflow-hidden max-w-[2044px] ml-auto"
             >
 
                 {/* text container here */}
-                <div className="w-[40%] px-4 left-0 absolute drop-shadow-lg text-white rounded-lg">
+                <div className="w-[40%] pl-10 px-4 left-0 absolute drop-shadow-lg text-white rounded-lg">
                     <div className="space-y-3">
                         <div className="text-[#86371C] flex gap-2">
                             <img src={horizontalLine} alt="" />
@@ -37,9 +37,6 @@ const NewRecipieCarousel = () => {
                                 slightly believable.</p>
                         </div>
                     </div>
-
-
-
 
                     <div className=" flex gap-3 z-50 mt-5">
                         {/* arrow left */}
@@ -55,7 +52,7 @@ const NewRecipieCarousel = () => {
 
                 </div>
                 {/* slider container */}
-                <div className="w-[60%] ml-auto overflow-hidden  absolute -right-5 lg:-right-16 z-50 px-4 py-10">
+                <div className="w-[60%] max-w-3xl ml-auto overflow-hidden  absolute -right-5 lg:-right-16 z-50 px-4 py-10">
                     <div className="ease-linear duration-300 flex gap-4 items-center"
                         style={{ transform: `translateX(-${currentSlider * (isSmallScreen ? 98 : 200)}px)` }}>
                         {/* sliders */}
@@ -63,7 +60,7 @@ const NewRecipieCarousel = () => {
 
                             <div key={inx} className="position-relative group/darkish bg-cover h-[180px] sm:h-[200px] lg:h-[380px] min-w-[90px] lg:min-w-[270px] drop-shadow-lg shadow-lg shadow-black bg-black/50 duration-300 rounded-3xl" style={{ backgroundImage: `url(${slide.img})` }}>
 
-                                <div className="overlay w-full hidden group-hover/darkish:block h-full position-absolute top-0 left-0 bg-black opacity-60 rounded-3xl transition-opacity duration-300 text-white">
+                                <div className="w-full hidden group-hover/darkish:block h-full position-absolute top-0 left-0 bg-black opacity-60 rounded-3xl transition-opacity duration-300 text-white">
                                     <div className="h-full relative items-end">
                                         <ul className="absolute bottom-8  left-0 text-sm list-disc px-7">
                                             <li className="font-Jost">Pita bread or wraps</li>

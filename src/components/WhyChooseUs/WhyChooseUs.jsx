@@ -3,9 +3,9 @@ import horizontalLine from '../../assets/horizontalLine.svg'
 
 const WhyChooseUs = () => {
     return (
-        <div className='px-20 pt-40 pb-10'>
-            <div className="hero min-h-screen">
-                <div className="hero-content justify-between items-center flex-col lg:flex-row-reverse w-full">
+        <div className='container mx-auto pt-40 pb-10'>
+            <div className="hero  min-h-screen">
+                <div className="flex  justify-between items-center flex-col lg:flex-row-reverse w-full">
                     <img src={WhyChoosePic} className="max-w-sm rounded-lg shadow-2xl" />
                     <div className='space-y-3 max-w-2xl'>
                         <div className='flex gap-2'>

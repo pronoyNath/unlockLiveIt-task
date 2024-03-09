@@ -8,10 +8,10 @@ const Banner = () => {
     return (
         <div className=''>
             <div className="hero min-h-screen" style={{ backgroundImage: `url(${bannerBG})` }}>
-                <div className="hero-content px-20">
+                <div className=" container mx-auto">
                     <div className="">
                         <div className="hero">
-                            <div className="hero-content flex-col lg:flex-row-reverse justify-between items-center">
+                            <div className="flex flex-col lg:flex-row-reverse justify-between items-center">
                                 <img src={bannerImage} className="max-w-xl" />
                                 <div className='text-[#270A05] space-y-5'>
                                     <p className='font-lemonada font-bold'>WELCOME TO OUR</p>

@@ -8,8 +8,8 @@ import userIcon from '../../assets/user.svg'
 
 const Navbar = () => {
     return (
-        <div className='border-b px-20  mt-5 pb-2'>
-            <div className="navbar text-xl bg-base-100 font-semibold text-[#270A05]">
+        <div className='border-b mt-5 pb-2  bg-base-100 '>
+            <div className="navbar text-xl container mx-auto font-semibold text-[#270A05]">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -39,18 +39,18 @@ const Navbar = () => {
                         <li>
                             <details>
                                 <summary>Pages</summary>
-                                <ul className="p-2">
-                                    <li><a>Submenu 1</a></li>
-                                    <li><a>Submenu 2</a></li>
+                                <ul className="p-2 z-40">
+                                    <li><a>কেমন আছেন?</a></li>
+                                    {/* <li><a>Submenu 2</a></li> */}
                                 </ul>
                             </details>
                         </li>
                         <li>
                             <details>
                                 <summary>Menu</summary>
-                                <ul className="p-2">
-                                    <li><a>Submenu 1</a></li>
-                                    <li><a>Submenu 2</a></li>
+                                <ul className="p-2 z-40">
+                                    <li><a>Kemon achen?</a></li>
+                                    {/* <li><a>Submenu 2</a></li> */}
                                 </ul>
                             </details>
                         </li>
@@ -75,7 +75,7 @@ const Navbar = () => {
                                 <p className='absolute -top-2 -right-2 h-5 w-5 text-center bg-[#270A05] rounded-full text-white text-sm'>4</p>
                             </div>
                         </div>
-                        <div className='flex items-center gap-2'>
+                        <div className='flex items-center gap-2 pr-7'>
                             <img src={userIcon} className=' bg-[#270A05] rounded-full p-2' alt="" />
                             <a className="text-xl">Sign in</a>
                         </div>

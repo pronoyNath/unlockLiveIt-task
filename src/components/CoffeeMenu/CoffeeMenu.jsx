@@ -45,7 +45,7 @@ const CoffeeMenu = () => {
     ]
 
     return (
-        <div className='py-20 px-20'>
+        <div className='py-20 container mx-auto'>
             <div className='mx-auto w-full space-y-3'>
                 <div className='flex gap-2 justify-center'>
                     <img src={horizontalLeft} alt="" />
