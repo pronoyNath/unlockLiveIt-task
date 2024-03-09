@@ -55,7 +55,7 @@ const CoffeeMenu = () => {
                 <h3 className='text-[#270A05] font-bakidaHistory text-3xl text-center '>Unlocklive Coffee Menu</h3>
             </div>
 
-            <div className='grid grid-cols-2 gap-5 py-20'>
+            <div className='grid grid-cols-2 gap-5 py-10 pt-20'>
 
                 {
                     order.map(menu =>
@@ -83,6 +83,9 @@ const CoffeeMenu = () => {
                             </div>
                         </div>)
                 }
+            </div>
+            <div className='text-center '>
+                <button className="btn btn-outline hover:bg-[#86371C] hover:border-none text-[#86371C] outline-[#86371C]">View All Menu</button>
             </div>
         </div>
     );
