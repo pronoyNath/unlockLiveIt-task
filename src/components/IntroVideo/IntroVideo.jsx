@@ -25,8 +25,8 @@ const IntroVideo = () => {
         },
     ]
     return (
-        <div className='bg-[#FFFAF2] w-full  text-[#270A05]'>
-            <div className='flex h-[230px] gap-28 container mx-auto'>
+        <div className='bg-[#FFFAF2] w-full py-10 lg:py-0 text-[#270A05]'>
+            <div className='flex flex-col lg:flex-row lg:h-[230px] gap-28 container mx-auto px-10'>
                 <div className=''>
                     <div className='relative'>
                         <img src={palyBG} alt="" className='h-[300px] w-[300px]' />
@@ -40,10 +40,10 @@ const IntroVideo = () => {
                     </div>
                 </div>
 
-                <div className='flex-1 flex justify-between w-full items-center'>
+                <div className='flex-1 flex flex-col md:flex-row justify-between w-full items-center'>
                     {
                         videoList.map(play =>
-                            <div key={play.id} className={`${play?.id == '2' && "border-x text-center"} ${play?.id == "1" && 'text-left pl-0'} ${play?.id == "3" && 'text-right pr-0'} px-20`}>
+                            <div key={play.id} className={`${play?.id == '2' && "border-y md:border-y-0 md:border-x text-center md:text-center"} ${play?.id == "1" && 'md:text-left text-center md:pl-0'} ${play?.id == "3" && 'md:text-right text-center md:pr-0'} px-5 py-5 md:py-0 md:px-16`}>
                                 <h3 className='font-Abril font-light text-lg mb-7'>{play?.title}</h3>
                                 <div>
                                     <p className='font-Jost text-[#270A05]'>{play?.date}</p>

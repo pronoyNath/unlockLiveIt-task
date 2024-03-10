@@ -45,7 +45,7 @@ const CoffeeMenu = () => {
     ]
 
     return (
-        <div className='py-20 container mx-auto'>
+        <div className='pb-10 px-10 container mx-auto'>
             <div className='mx-auto w-full space-y-3'>
                 <div className='flex gap-2 justify-center'>
                     <img src={horizontalLeft} alt="" />
@@ -55,7 +55,7 @@ const CoffeeMenu = () => {
                 <h3 className='text-[#270A05] font-bakidaHistory text-3xl text-center '>Unlocklive Coffee Menu</h3>
             </div>
 
-            <div className='grid grid-cols-2 gap-5 py-10 pt-20'>
+            <div className='grid grid-cols-1 lg:grid-cols-2 gap-5 py-10 pt-20'>
 
                 {
                     order.map(menu =>
@@ -76,8 +76,8 @@ const CoffeeMenu = () => {
                             <div>
                                 <div className='relative'>
                                     <img src={moneyOutline} className='' alt="" />
-                                    <div className='flex justify-center items-center  absolute top-1 bottom-3 right-0 left-1 bg-[#86371C] w-[51px] h-[51px] rounded-full'>
-                                        <p className=' text-lg text-white'>$10</p>
+                                    <div className='flex justify-center items-center  absolute top-1 bottom-3 right-0 left-1 bg-[#86371C] w-[26px] h-[26px] md:w-[51px] md:h-[51px] rounded-full'>
+                                        <p className='text-xs md:text-lg text-white'>$10</p>
                                     </div>
                                 </div>
                             </div>

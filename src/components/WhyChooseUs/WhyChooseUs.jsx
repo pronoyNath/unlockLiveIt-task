@@ -3,19 +3,19 @@ import horizontalLine from '../../assets/horizontalLine.svg'
 
 const WhyChooseUs = () => {
     return (
-        <div className='container mx-auto pt-40 pb-10'>
+        <div className='container mx-auto px-10 pt-32 pb-10'>
             <div className="hero  min-h-screen">
                 <div className="flex  justify-between items-center flex-col lg:flex-row-reverse w-full">
-                    <img src={WhyChoosePic} className="max-w-sm rounded-lg shadow-2xl" />
+                    <img src={WhyChoosePic} className="max-w-sm rounded-lg shadow-2xl mx-auto w-full mb-10 lg:mb-0" />
                     <div className='space-y-3 max-w-2xl'>
                         <div className='flex gap-2'>
                             <img src={horizontalLine} alt="" />
                             <p className='font-lemonada text-[#86371C] font-semibold'>Why Choose Us</p>
                         </div>
-                        <h1 className="text-5xl font-bakidaHistory font-normal text-[#270A05]">Choosing Unlocklive, A Taste of Perfection</h1>
+                        <h1 className="text-3xl md:text-5xl font-bakidaHistory font-normal text-[#270A05]">Choosing Unlocklive, A Taste of Perfection</h1>
                         <p className="py-6 font-Jost text-[#7d6c69]">Unlocklive takes pride in the art of roasting, transforming raw coffee beans into a <br /> symphony of aromatic notes and rich flavors.</p>
 
-                        <div className='text-[#270A05] flex justify-between'>
+                        <div className='text-[#270A05] flex flex-col items-center gap-7 md:gap-0 md:flex-row justify-between'>
                             <div className='border rounded-xl border-[#d6d1cf] p-7 h-[130px] w-[190px] text-center'>
                                 <h3 className='text-4xl font-bakidaHistory'>20+</h3>
                                 <p className='font-Jost font-base'>Years Experience</p>

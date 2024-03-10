@@ -15,7 +15,7 @@ import Banner from '../Banner';
 export default function BannerCarousel() {
     return (
         <>
-            <Swiper pagination={true} modules={[Pagination]} className={`mySwiper`}>
+            <Swiper pagination={true} modules={[Pagination]} className={`mySwiper w-full`}>
                 <SwiperSlide>
                     <Banner />
                 </SwiperSlide>

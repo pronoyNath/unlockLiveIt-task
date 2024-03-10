@@ -6,22 +6,22 @@ import img5 from '../../assets/gallery5.png'
 
 const PhotoGallery = () => {
     return (
-        <div className='px-24'>
+        <div className=' container mx-auto px-7'>
             <div className='grid grid-cols-12 gap-5'>
                 <div className='col-span-4'>
-                    <img src={img1} alt="" />
+                    <img src={img1} alt="" className='w-full' />
                 </div>
                 <div className='col-span-8'>
-                    <img src={img2} alt="" />
+                    <img src={img2} alt="" className='w-full' />
                 </div>
                 <div className='col-span-3'>
-                    <img src={img3} alt="" />
+                    <img src={img3} alt="" className='w-full' />
                 </div>
                 <div className='col-span-5'>
-                    <img src={img4} alt="" />
+                    <img src={img4} alt="" className='w-full' />
                 </div>
                 <div className='col-span-4'>
-                    <img src={img5} alt="" />
+                    <img src={img5} alt="" className='w-full' />
                 </div>
             </div>
         </div>
