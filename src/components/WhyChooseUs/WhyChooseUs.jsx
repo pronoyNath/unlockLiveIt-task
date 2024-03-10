@@ -16,16 +16,16 @@ const WhyChooseUs = () => {
                         <p className="py-6 font-Jost text-[#7d6c69]">Unlocklive takes pride in the art of roasting, transforming raw coffee beans into a <br /> symphony of aromatic notes and rich flavors.</p>
 
                         <div className='text-[#270A05] flex flex-col items-center gap-7 md:gap-0 md:flex-row justify-between'>
-                            <div className='border rounded-xl border-[#d6d1cf] p-7 h-[130px] w-[190px] text-center'>
+                            <div className='hover:rotate-3 hover:scale-110 duration-300 ease-in-out border rounded-xl border-[#d6d1cf] p-7 h-[130px] w-[190px] text-center'>
                                 <h3 className='text-4xl font-bakidaHistory'>20+</h3>
                                 <p className='font-Jost font-base'>Years Experience</p>
                             </div>
-                            <div className='relative rotate-1 border rounded-xl border-[#d6d1cf] p-7 h-[130px] w-[190px] text-center'>
+                            <div className='hover:rotate-3 hover:scale-110 duration-300 ease-in-out relative rotate-1 border rounded-xl border-[#d6d1cf] p-7 h-[130px] w-[190px] text-center'>
                                 <h3 className='text-4xl font-bakidaHistory'>100+</h3>
                                 <p className='font-Jost font-base'>Master Chefs</p>
-                                <div className='absolute left-0 top-0 rotate-6 border border-[#d6d1cf] rounded-xl  p-7 h-[130px] w-[190px]'></div>
+                                <div className='hover:-rotate-6  duration-300 ease-in-out absolute left-0 top-0 rotate-6 border border-[#d6d1cf] rounded-xl  p-7 h-[130px] w-[190px]'></div>
                             </div>
-                            <div className='border rounded-xl border-[#d6d1cf] p-7 h-[130px] w-[190px] text-center'>
+                            <div className='hover:-rotate-3 hover:scale-110 duration-300 ease-in-out border rounded-xl border-[#d6d1cf] p-7 h-[130px] w-[190px] text-center'>
                                 <h3 className='text-4xl font-bakidaHistory'>30+</h3>
                                 <p className='font-Jost font-base'>Achievements</p>
                             </div>

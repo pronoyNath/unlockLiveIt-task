@@ -40,13 +40,13 @@ const NewRecipieCarousel = () => {
 
                     <div className=" flex gap-3 z-50 mt-5">
                         {/* arrow left */}
-                        <button onClick={prevSlider} className="flex justify-center items-center hover:bg-white/30 rounded-full w-6 h-6 md:w-8 md:h-8">
-                            <IoArrowBackCircleOutline className="text-[#270a05]  text-5xl" />
+                        <button onClick={prevSlider} className="flex justify-center items-center hover:bg-[#270a05]  rounded-full w-6 h-6 md:w-8 md:h-8">
+                            <IoArrowBackCircleOutline className="text-[#270a05] hover:text-white text-5xl" />
 
                         </button>
                         {/* arrow right */}
-                        <button onClick={nextSlider} className="flex justify-center items-center hover:bg-white/30 rounded-full w-6 h-6 md:w-8 md:h-8">
-                            <IoArrowBackCircleOutline className="text-[#270a05] rotate-180 text-5xl" />
+                        <button onClick={nextSlider} className="flex justify-center hover:bg-[#270a05]  items-center  rounded-full w-6 h-6 md:w-8 md:h-8">
+                            <IoArrowBackCircleOutline className="text-[#270a05] hover:text-white rotate-180 text-5xl" />
                         </button>
                     </div>
 
