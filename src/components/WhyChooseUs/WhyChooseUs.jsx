@@ -6,7 +6,9 @@ const WhyChooseUs = () => {
         <div className='container mx-auto px-10 pt-32 pb-10'>
             <div className="hero  min-h-screen">
                 <div className="flex  justify-between items-center flex-col lg:flex-row-reverse w-full">
-                    <img src={WhyChoosePic} className="max-w-sm rounded-lg shadow-2xl mx-auto w-full mb-10 lg:mb-0" />
+
+                    <img src={WhyChoosePic} className="hover:scale-110 hover:shadow-2xl duration-300 ease-in-out max-w-xs md:max-w-md rounded-lg shadow-2xl mx-auto lg:mx-0 h-full mb-10 lg:mb-0" />
+
                     <div className='space-y-3 max-w-2xl'>
                         <div className='flex gap-2'>
                             <img src={horizontalLine} alt="" />
