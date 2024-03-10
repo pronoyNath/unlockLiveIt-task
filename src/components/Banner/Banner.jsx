@@ -3,7 +3,6 @@ import bannerBG from '../../assets/bannerBG.png'
 import e1 from '../../assets/e1.png'
 import e2 from '../../assets/e2.png'
 import e3 from '../../assets/e3.png'
-import coffeeCup from '../../assets/coffee.png'
 
 const Banner = () => {
     return (
