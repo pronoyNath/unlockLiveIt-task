@@ -35,7 +35,9 @@ const WhyChooseUs = () => {
                             Your choice to savor our coffee is an invitation to experience the epitome of craftsmanship, flavor, and dedication.
                         </p>
 
-                        <button className="btn btn-outline hover:bg-[#86371C] hover:border-none text-[#86371C] outline-[#86371C]">Explore Our Menus</button>
+                        {/* <button className="btn btn-outline hover:bg-[#86371C] hover:border-none text-[#86371C] outline-[#86371C]">Explore Our Menus</button> */}
+
+                        <button type="button" className="group rounded-lg  relative h-12 w-48 overflow-hidden border border-[#86371C] text-xl text-[#86371C] hover:text-white"><span className="bg-[#672f1d] ease-in absolute w-[57%]  -translate-x-full group-hover:translate-x-0 -left-2 top-0 bottom-0 duration-300 -z-10 skew-x-12"></span><span className="bg-[#86371C] ease-in absolute w-[55%]  translate-x-full group-hover:translate-x-0 -right-2 top-0 bottom-0 duration-300 skew-x-12 -z-10"></span>Explore Our Menus</button>
 
 
                     </div>

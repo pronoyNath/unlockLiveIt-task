@@ -58,7 +58,7 @@ const NewRecipieCarousel = () => {
                         {/* sliders */}
                         {sliders.map((slide, inx) => (
 
-                            <div key={inx} className="position-relative group/darkish bg-cover h-[380px] min-w-[270px] drop-shadow-lg shadow-lg shadow-black bg-black/50 duration-300 rounded-3xl" style={{ backgroundImage: `url(${slide.img})` }}>
+                            <div key={inx} className="hover:scale-110  position-relative group/darkish bg-cover h-[380px] min-w-[270px] drop-shadow-lg shadow-lg shadow-black bg-black/50 duration-300 rounded-3xl" style={{ backgroundImage: `url(${slide.img})` }}>
 
                                 <div className="w-full hidden group-hover/darkish:block h-full position-absolute top-0 left-0 bg-black opacity-60 rounded-3xl transition-opacity duration-300 text-white">
                                     <div className="h-full relative items-end">
